@@ -1,3 +1,4 @@
+
 package com.javaex.dao;
 
 import java.sql.Connection;
@@ -8,8 +9,11 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.stereotype.Repository;
+
 import com.javaex.vo.GuestbookVo;
 
+@Repository
 public class GuestbookDao {
 
 	// 0. import java.sql.*;
